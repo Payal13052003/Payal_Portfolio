@@ -1,32 +1,4 @@
-<div class="progress-container">
-    <div class="circular-progress html-css"> <!-- Matches JS selector -->
-        <span class="html-progress">0%</span> <!-- Matches JS selector -->
-    </div>
-    <p>HTML, CSS & JavaScript</p>
-</div>
-
-<div class="progress-container">
-    <div class="circular-progress php">
-        <span class="php-progress">0%</span>
-    </div>
-    <p>PHP</p>
-</div>
-
-<div class="progress-container">
-    <div class="circular-progress javascript">
-        <span class="javascript-progress">0%</span>
-    </div>
-    <p>JavaScript</p>
-</div>
-
-<div class="progress-container">
-    <div class="circular-progress sql"> <!-- Changed "SQL" to lowercase "sql" -->
-        <span class="sql-progress">0%</span> <!-- Changed to lowercase -->
-    </div>
-    <p>SQL</p>
-</div>
-
-/*// htmlcss progress circular bar 
+// htmlcss progress circular bar 
 let htmlProgress = document.querySelector(".html-css"),
   htmlValue = document.querySelector(".html-progress");
 
@@ -202,4 +174,4 @@ document.addEventListener("DOMContentLoaded", function () {
     researchList.appendChild(card);
   });
   
-});*/
+});
