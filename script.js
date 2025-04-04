@@ -61,23 +61,23 @@ let progressphp = setInterval(() => {
   }
 }, phpspeed);
 
-let SQLProgress = document.querySelector(".SQL"), // Corrected selector
-  SQLValue = document.querySelector(".SQL-progress");
+let sqlProgress = document.querySelector(".sql"), // Corrected selector
+  sqlValue = document.querySelector(".sql-progress");
 
-if (SQLProgress && SQLValue) {  // Ensure elements exist
-  let SQLStartValue = 0,
-    SQLEndValue = 80,
+if (sqlProgress && sqlValue) {  // Ensure elements exist
+  let sqlStartValue = 0,
+    sqlEndValue = 80,
     rjsspeed = 30;
 
   let progresssql = setInterval(() => {
-    SQLStartValue++;
+    sqlStartValue++;
 
-    SQLValue.textContent = `${SQLStartValue}%`;
-    SQLProgress.style.background = `conic-gradient(#3f396d ${
-      SQLStartValue * 3.6
+    sqlValue.textContent = `${sqlStartValue}%`;
+    sqlProgress.style.background = `conic-gradient(#3f396d ${
+      sqlStartValue * 3.6
     }deg, #ededed 0deg)`;
 
-    if (SQLStartValue >= SQLEndValue) { // Ensure it stops at 80
+    if (sqlStartValue >= sqlEndValue) { // Ensure it stops at 80
       clearInterval(progresssql);
     }
   }, rjsspeed);
