@@ -3,6 +3,13 @@ body{
     font-family: 'Times New Roman', sans-serif;
     font-weight: 400;
 }
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* styling menu icon */
 .nav-menu{
     border: none;
