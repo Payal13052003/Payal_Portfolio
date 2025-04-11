@@ -1,5 +1,5 @@
 /* appling google font over the website  */
-body{
+body,html{
     font-family: 'Times New Roman', sans-serif;
     font-weight: 400;
     overflow-x: hidden;
@@ -432,4 +432,3 @@ footer .link-group a:hover{
   .research-card a:hover {
     background: #0056b3;
   }
-  
