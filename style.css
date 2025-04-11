@@ -4,19 +4,17 @@ body{
     font-weight: 400;
     overflow-x: hidden;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 /* styling menu icon */
 .nav-menu{
     border: none;
@@ -126,6 +124,12 @@ body{
         margin-left: 150px; /* Shift the image slightly to the right */
         margin-top: 50px; /* Move the image down from the top */
     }
+    @media (max-width: 768px) {
+        .home img {
+          margin-left: 0;
+        }
+      }
+      
 
 @keyframes floatimg {
     0%{
